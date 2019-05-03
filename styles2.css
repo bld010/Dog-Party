@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+
+body {
+  margin: 0;
+}
+
+
+img.logo {
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 30px;
+
+}
+
+
+
+li.nav-items{
+  display: block;
+  margin-top: 30px;
+  padding-left: 10px;
+}
+
+.nav-bar {
+  float: left;
+  height: 100%;
+  position: fixed;
+  background-color: #9A969C;
+  width: 150px
+}
+
+
+
+/*
+header {
+  position: relative;
+  float: left;
+  height: auto;
+
+}*/
+
+a {
+  font-family: 'Roboto Slab', serif;
+  color: black;
+  text-decoration: none;
+
+}
+
+
+
+ul {
+  margin-left: 5px;
+  padding-left: 0px;
+}
+
+main {
+  padding-left: 220px;
+  padding-bottom: 50px;
+  background-color: #3E3544;
+  height: auto;
+
+}
+
+h1 {
+  float: right;
+  position: absolute;
+  top: 24px;
+  left: 578px;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  width: 300;
+  font-weight: normal;
+}
+
+#changing-text{
+  font-weight: 800;
+}
+
+.dog-articles {
+  padding-left: 180px;
+  text-align: left;
+  width: 80%;
+  min-width: 600px;
+  margin-bottom: 120px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+img.top-dog-photo {
+  border-radius: 250px;
+  height: auto;
+  max-width: 250px;
+  min-width: 10px;  
+  border: 5px solid #9A969C;
+  margin-left: 36px;
+  margin-top: 50px;
+
+}
+
+p.article {
+  margin-left: 200px;
+  height: 150px;
+  min-width: 250px;
+  font-family: "Roboto Slab", serif;
+}
+
+p.article-link {
+  float: right;
+  position: relative;
+  width: 170px;
+  height: 40px;
+  text-align: center;
+  margin: 40px;
+  margin-top: 10px;
+  background-color:#3E3544;
+  /*padding-right: 40px;*/
+  padding-top: 10px;
+  color: #ffffff;
+  font-family: "Roboto Slab", serif;
+  border-radius: 2.5px;
+  
+}
+
+img.dogPhoto {
+  border-radius: 175px;
+  height: 175px;
+  width: 175px;
+  border: 5px solid #9A969C;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.dog-column-1 .dog-column-2 .dog-column-3 {
+  min-width: 300px;
+  display: inline-block;
+  height: 390px !important;
+  margin-bottom: 90px;
+}
+
+.dog-column-1 {
+  border-bottom: 2px solid #9A969C!important;
+  height: 300px;
+}
+
+.dog-column-2 {
+  border-bottom: 2px solid #9A969C!important;
+  height: 300px;
+}
+
+
+
+
+.articleTitle {
+  min-width: 250px;
+  font-family: 'Roboto Slab', serif;
+
+}
+
+
+footer {
+  background-color: #3E3544;
+  width: 100%;
+  height: 200px;
+  text-align: right;
+  margin-bottom: -20px;
+  margin-right: 20px;
+  color: white;
+  font-family: "Roboto Slab", serif;
+
+}
+
+p.footerText {
+  padding-top: 20px;
+  padding-right: 20px;
+  position: relative;
+  right: 330px;
+  top: 20px;
+  font-size: 20px;
+
+}
+
+ul.socials {
+  margin-bottom: 0px;
+  margin-right: 20px;
+
+}
+
+li.socials {
+  display: inline;
+}
+
+/*Form Styles*/
+
+div.name-form {
+  width: 400px;
+  margin: auto;
+  float: right;
+  margin-right: 180px;
+  position: absolute;
+  top: 81px;
+  left: 578px;
+
+}
+
+p.left-align{
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-align: left;
+  font-family: 'Roboto Slab', serif;
+  color: #ffffff;
+}
+
+
+form {
+  width: 400px;
+}
+
+
+input {
+  width: 400px;
+  height: 40px;
+  display: block;
+  text-align: center;
+
+}
+
+
+
+button {
+  width: 400px;
+  height: 40px;
+  background-color: #9A969C;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-right: 100px;
+  border-radius: 2.5px;
+  border-color: #9A969C;
+  font-family: "Roboto Slab", serif;
+}
+
+
+#linkedin {
+  position: relative;
+  right: 166px;
+  top: 50px;
+}
+
+#instagram {
+  position: relative;
+  top: -30px;
+  right: 70px;
+}
+
+#twitter {
+  position: relative;
+  top: -30px;
+  right: 90px;
+}
+
+#facebook {
+  position: relative;
+  top: 50px;
+  right: 194px;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+
+
+.clearfix:after {
+    content: ' ';
+    display: table;
+    clear: both;
+}
