@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
+html {
+  width: 80%;
+  margin: auto;
+}
 
 body {
   margin: 0;
+  border: 1px solid black
 }
 
 /*Nav Styles*/
@@ -24,7 +28,8 @@ nav {
   height: 100%;
   position: fixed;
   background-color: #9A969C;
-  width: 150px
+  width: 150px;
+  border-right: 2px solid #3E3544;
 }
 
 /*Text Styles*/
@@ -37,13 +42,13 @@ a {
 
 h1 {
   float: right;
-  position: absolute;
-  top: 24px;
-  left: 578px;
+  margin-right: 97px;
+  margin-top: 50px;
   color: white;
   font-family: 'Roboto Slab', serif;
-  width: 300;
   font-weight: normal;
+      position: absolute;
+    left: 650px;
 }
 
 ul {
@@ -55,35 +60,36 @@ ul {
 
 header {
   padding-left: 220px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   background-color: #3E3544;
-  height: auto;
+  /*height: 347px;*/
+  min-height: 350px;
+
 }
 
 img.top-dog-photo {
   border-radius: 250px;
   height: auto;
-  max-width: 250px;
+  max-width: 300px;
   min-width: 10px;  
   border: 5px solid #9A969C;
-  margin-left: 36px;
-  margin-top: 50px;
+  margin-left: -48px;
+  margin-top: 25px;
 }
 
 #changing-text{
   font-weight: 800;
 }
 
-/*Main Styles*/
 
 button {
-  width: 400px;
+  width: 375px;
   height: 40px;
   background-color: #9A969C;
   color: white;
   font-size: 20px;
   margin-top: 20px;
-  margin-right: 100px;
+  margin-right: 40px;
   border-radius: 2.5px;
   border-color: #9A969C;
   font-family: "Roboto Slab", serif;
@@ -94,7 +100,7 @@ form {
 }
 
 input {
-  width: 400px;
+  width: 375px;
   height: 40px;
   display: block;
   text-align: center;
@@ -102,8 +108,9 @@ input {
 
 main {
   padding-left: 180px;
+  padding-right: 20px;
   text-align: left;
-  width: 80%;
+  width: 100%;
   min-width: 600px;
   margin-bottom: 120px;
   margin-left: auto;
@@ -126,6 +133,7 @@ p.article {
   height: 150px;
   min-width: 250px;
   font-family: "Roboto Slab", serif;
+  font-weight: 300;
 }
 
 p.article-link {
@@ -135,6 +143,7 @@ p.article-link {
   height: 40px;
   text-align: center;
   margin: 40px;
+  margin-right: 0px;
   margin-top: 10px;
   background-color:#3E3544;
   /*padding-right: 40px;*/
@@ -182,36 +191,49 @@ footer {
 }
 
 p.footerText {
-  padding-top: 20px;
-  padding-right: 20px;
-  position: relative;
-  right: 330px;
-  top: 20px;
-  font-size: 20px;
+  margin-top: 47px;
+  margin-right: 23px;
+  display: inline-block;
+  font-size: 22px;
 
 }
 
+
+.social-media-logos {
+ float: right;
+    display: inline-block;
+    width: 220px;
+}
+
+#facebook,
+#instagram,  
+#linkedin, 
+#twitter {
+ margin: 20px 10px 0px 10px;
+}
+
+
+
 ul.socials {
   margin-bottom: 0px;
-  margin-right: 20px;
+  margin-right: 50px;
 
 }
 
 li.socials {
   display: inline;
+
 }
 
 /*Form Styles*/
 
 div.name-form {
   width: 400px;
-  margin: auto;
-  float: right;
-  margin-right: 180px;
-  position: absolute;
-  top: 81px;
-  left: 578px;
-
+  position: relative;
+  top: -73px;
+  left: 43px;
+/*  margin-right: 100px;
+*/  display: inline-block;
 }
 
 p.left-align{
@@ -222,38 +244,18 @@ p.left-align{
   color: #ffffff;
 }
 
-#linkedin {
-  position: relative;
-  right: 166px;
-  top: 50px;
-}
-
-#instagram {
-  position: relative;
-  top: -30px;
-  right: 70px;
-}
-
-#twitter {
-  position: relative;
-  top: -30px;
-  right: 90px;
-}
-
-#facebook {
-  position: relative;
-  top: 50px;
-  right: 194px;
-}
-
-
-
 *,
 *:after,
 *:before {
   box-sizing: border-box;
+
+
 }
 
+
+* {
+    border:red 1px solid
+}
 
 
 .clearfix:after {
