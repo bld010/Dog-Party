@@ -6,6 +6,5 @@ button.addEventListener("click", function(e){
   debugger;
   span.innerHTML = newDogName.value;
   e.preventDefault(); 
-  // e.stopPropagation();
 });
 
