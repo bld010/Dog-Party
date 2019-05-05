@@ -1,6 +1,8 @@
 
 html {
   width: 90%;
+  max-width: 1000px;
+  min-width: 700px;
   margin: auto;
   border: 1px solid #000000;
 }
@@ -10,6 +12,7 @@ body {
   height: 100%;
   /*border: 1px solid black;*/
   font-family: 'Roboto Slab', serif;
+
 }
 
 /*Nav Styles*/
@@ -133,8 +136,9 @@ img.dogPhoto {
 p.article {
   margin-left: 200px;
   height: 150px;
-  min-width: 250px;
-  font-weight: 300;
+/*  min-width: 350px;
+*/  font-weight: 300;
+  max-width: 600px;
 }
 
 p.article-link {
