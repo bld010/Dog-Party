@@ -1,7 +1,14 @@
+html {
+			min-width: 900px;
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,800);
+}
 
-
+body {
+		font-family: 'Open Sans', sans-serif;
+		width: 90%;
+		margin: 0 auto 0 auto;
+		border: 1px solid #000000;
+}
 
 /*Header Items*/
 
@@ -19,26 +26,32 @@ li.nav-items {
 	font-weight: bold;
 	font-size: 15px;
 	margin-left: 20px;
-	margin-top: 15px;
+	margin-top: 20px;
 	margin-right: 20px;
-	font-family: 'Open Sans', sans-serif;
 	color: #000000;
 }
 
 nav {
 	font-size: 12px;
-	height: 80px;
+	height: 75px;
 	background-color: #75e2e6;
 	border-bottom: 3px solid #048eaa;
+	margin-top: -12px;
+
 }
 
 a {
-	font-family: 'Open Sans', sans-serif;
 	color: black;
 	text-decoration: none;
 }
 
+button {
+		font-family: 'Open Sans', sans-serif;
+}
 
+#myButton {
+	color: black;
+}
 
 /*Form Items*/
 
@@ -49,10 +62,11 @@ div.name-form {
 
 p.left-align{
 	margin-top: 20px;
-	margin-bottom: 0px;
+	margin-bottom: 8px;
+	margin-left: 26px;
 	text-align: left;
-	font-family: 'Open Sans', sans-serif;
-	color: #ffffff;
+/*	font-family: 'Open Sans', sans-serif;
+*/	color: #ffffff;
 }
 
 
@@ -62,22 +76,24 @@ form {
 
 
 input {
-	width: 400px;
-	height: 30px;
+	width: 350px;
+	height: 40px;
 	display: block;
 	text-align: center;
 	margin: auto;
+	border-radius: 2.5px;
 }
 
 
 
 button {
-	width: 400px;
+	width: 350px;
 	height: 40px;
 	background-color: #75e2e6;
 	color: white;
 	font-size: 20px;
-	margin-top: 12px;
+	margin-top: 20px;
+	border-radius: 2.5px;
 }
 
 /*Photo Styles*/
@@ -88,6 +104,7 @@ img.top-dog-photo {
 	max-width: 175px;
 	min-width: 10px;	
 	border: 5px solid #048eaa;
+	margin-top: 20px;
 }
 
 img.dogPhoto {
@@ -112,40 +129,24 @@ main {
 }
 
 
-.dog-column-1 {
+article {
 	height: 400px;
 	width: 275px;
-	padding-top: 50px;
+/*	width: 0%;
+*/	padding-top: 50px;
 	text-align: center;
 	display: inline;
 	margin-right: 60px;
 	margin-bottom: 300px;
 	font-size: 16px;
 	float: left;
-}
-
-.dog-column-2 {
-	height: 400px;
-	width: 275px;
-	padding-top: 50px;
-	text-align: center;
-	margin-right: 60px;
-	display: inline;
-	margin-bottom: 300px;
-	float: left;	
-	font-size: 16px;
 }
 
 .dog-column-3 {
-	height: 400px;
-	width: 275px;
-	text-align: center;
-	padding-top: 50px;
-	margin-bottom: 300px;
-	display: inline;
-	float: left;
-	font-size: 16px;
+	margin-right: 0px;
 }
+
+
 
 /*Background Park Image Container*/
 
@@ -155,9 +156,8 @@ header {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: top center;
-/*	background-position: 50% 0%;*/
 	background-width: 100%;
-	margin-top: -22px;
+	margin-top: 0px;
 	background-size: cover;
 	height: 450px;
 
@@ -168,9 +168,10 @@ header {
 /*Text Styles*/
 
 h1 {
-	font-family: 'Open Sans', sans-serif;
-	z-index: 1;
+/*	font-family: 'Open Sans', sans-serif;
+*/	z-index: 1;
 	color: white;
+	font-weight: 400;
 	
 }
 
@@ -180,15 +181,15 @@ h1 {
 
 p.article {
 	height: 250px;
-	font-family: 'Open Sans', sans-serif;
-	text-align: left;
+/*	font-family: 'Open Sans', sans-serif;
+*/	text-align: left;
 
 }
 
 p.article-link {
 	height: 275px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: bold;
+/*	font-family: 'Open Sans', sans-serif;
+*/	font-weight: bold;
 	background: #048eaa;
 	height: 40px;
 	padding-top: 10px;
@@ -200,8 +201,8 @@ p.article-link {
 
 h2.articleTitle {
 
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 800;
+/*	font-family: 'Open Sans', sans-serif;
+*/	font-weight: 800;
 
 }
 
@@ -210,8 +211,8 @@ h2.articleTitle {
 
 p.footerText{
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: bold;
+/*	font-family: 'Open Sans', sans-serif;
+*/	font-weight: bold;
 	color: #ffffff;
 }
 
@@ -223,6 +224,7 @@ footer {
 	text-align: center;
 
 }
+
 
 
 ul.socials{
@@ -239,6 +241,7 @@ li.socials{
 
 p {
 	margin: 0;
+	font-size: 16px;
 }
 
 /*Box Sizing*/
@@ -248,4 +251,61 @@ p {
 *:before {
   box-sizing: border-box;
   /*border: red solid 1px;*/
+}
+
+
+/*Media Query*/
+@media screen and (max-width: 1200px) {
+  body {
+    /*background: magenta;*/
+    width: 600px;
+    /*width: 100%;*/
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  main {
+  	display: block;
+		/*background-color: green;*/
+		text-align: center; 
+		height: 1900px;
+		width: 300px; 
+		margin-left: 150px;
+}
+
+	
+	}
+}
+
+@media screen and (max-width: 1200px) {
+  article {
+  	margin-left: auto;
+  	margin-right: auto;	
+  	height: 300px;
+/*  	margin-bottom: 100px;
+*/  	text-align: center;
+
+	}
+}
+
+@media screen and (max-width: 1200px) {
+  .dog-column-1
+  .dog-column-2
+  .dog-column-3 {
+  	margin: auto;	
+  	height: 250px;
+  	padding-top: 0px;
+
+	}
+}
+
+
+
+  	
+
+@media screen and (max-width: 1200px) {
+  footer {
+  	margin-top: 150px	;
+
+	}
 }
