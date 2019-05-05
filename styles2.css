@@ -10,12 +10,22 @@ html {
 body {
   margin: 0;
   height: 100%;
-  /*border: 1px solid black;*/
   font-family: 'Roboto Slab', serif;
-
 }
 
 /*Nav Styles*/
+
+nav {
+  float: left;
+  height: 100%;
+  position: fixed;
+  background-color: #9A969C;
+  width: 150px;
+  margin-bottom: -5px;
+  border-right: 2px solid #3E3544;
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+}
 
 img.logo {
   height: 100px;
@@ -27,20 +37,6 @@ li.nav-items{
   display: block;
   margin-top: 30px;
   padding-left: 10px;
-}
-
-nav {
-  float: left;
-  height: 100%;
-  position: fixed;
-  background-color: #9A969C;
-  width: 150px;
-  margin-bottom: -5px;
-  border-right: 2px solid #3E3544;
-/*  margin-top: -2px;
-*/  border-top: 1px solid #000000;
-  /*border-left: 1px solid #000000;*/
-
 }
 
 /*Text Styles*/
@@ -70,25 +66,7 @@ header {
     background-color: #3E3544;
     min-height: 350px;
     height: auto;
-    /*border-right: 1px solid #000000;*/
-    /*border-top: 1px solid #000000;*/
-
 }
-
-img.top-dog-photo {
-  border-radius: 250px;
-  height: auto;
-  max-width: 300px;
-  min-width: 10px;  
-  border: 5px solid #9A969C;
-  margin-left: 48px;
-  margin-top: 25px;
-}
-
-#changing-text{
-  font-weight: 800;
-}
-
 
 button {
   width: 375px;
@@ -101,6 +79,16 @@ button {
   border-radius: 2.5px;
   border-color: #9A969C;
   font-family: "Roboto Slab", serif;
+}
+
+img.top-dog-photo {
+  border-radius: 250px;
+  height: auto;
+  max-width: 300px;
+  min-width: 10px;  
+  border: 5px solid #9A969C;
+  margin-left: 48px;
+  margin-top: 25px;
 }
 
 input {
@@ -119,7 +107,26 @@ main {
   margin-bottom: 120px;
   margin-left: auto;
   margin-right: auto;
-  /*border-right: 1px solid #000000;*/
+}
+
+div.name-form {
+  width: 400px;
+  position: relative;
+  top: -47px;
+  left: 43px;
+  margin-right: 100px;
+  display: inline-block;
+}
+
+p.left-align{
+  margin-top: 20px;
+  margin-bottom: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+
+#changing-text{
+  font-weight: 800;
 }
 
 /*Article Styles*/
@@ -136,8 +143,7 @@ img.dogPhoto {
 p.article {
   margin-left: 200px;
   height: 150px;
-/*  min-width: 350px;
-*/  font-weight: 300;
+  font-weight: 300;
   max-width: 600px;
 }
 
@@ -177,8 +183,6 @@ p.article-link {
   height: 300px;
 }
 
-
-
 /*Footer Styles*/
 
 footer {
@@ -191,19 +195,26 @@ footer {
   color: white;
 }
 
+img.social-media-logos {
+  float: right;
+  display: inline-block;
+  width: 220px;
+}
+
+li.socials {
+  display: inline;
+}
+
 p.footerText {
   margin-top: 47px;
   margin-right: 23px;
   display: inline-block;
   font-size: 22px;
-
 }
 
-
-.social-media-logos {
- float: right;
-    display: inline-block;
-    width: 220px;
+ul.socials {
+  margin-bottom: 0px;
+  margin-right: 50px;
 }
 
 #facebook,
@@ -213,50 +224,11 @@ p.footerText {
  margin: 20px 10px 0px 10px;
 }
 
-
-
-ul.socials {
-  margin-bottom: 0px;
-  margin-right: 50px;
-
-}
-
-li.socials {
-  display: inline;
-
-}
-
-/*Form Styles*/
-
-div.name-form {
-  width: 400px;
-  position: relative;
-  top: -47px;
-  left: 43px;
-  margin-right: 100px;
-  display: inline-block;
-}
-
-p.left-align{
-  margin-top: 20px;
-  margin-bottom: 0px;
-  text-align: left;
-  color: #ffffff;
-}
-
 *,
 *:after,
 *:before {
   box-sizing: border-box;
-
-
 }
-
-
-/** {
-    border:red 1px solid
-}*/
-
 
 .clearfix:after {
     content: ' ';
